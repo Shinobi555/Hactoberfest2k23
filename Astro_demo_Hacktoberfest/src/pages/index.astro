@@ -1,5 +1,5 @@
 ---
- import {Picture} from "astro:assets";
+ import {Picture,Image} from "astro:assets";
 ---
 
 <html lang="en">
@@ -19,9 +19,14 @@
 		  />
 		</header>
 
+	
+ 
+
 		<main class="flex justify-center items-center flex-col gap-2 min-h-screen">
           <p>
 			<h1 class="text-4xl text-sky-700">Welcome to Astro🚀</h1>
+			<Picture src="/hacktober_banner.png" formats={["webp","avif"]} class="border border-sky-400 shadow-lg shadow-sky-600" alt="hacktoberfest banner" width="800"
+			height="600"/>
 			<p class="text-slate-200">This is a Hacktoberfest Project Template for Astro </p>
 			<p class="text-slate-200"> YAY!!🤩 Happy Hacktoberfest</p>
 		  </p>
