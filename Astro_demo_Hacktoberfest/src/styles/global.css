@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Krona+One&family=Poppins:wght@300;400;500&family=Sora:wght@300;500;600;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+.font-inter {
+    font-family: 'inter';
+}
+
+.font-sora-600 {
+    font-family: 'sora', sans-serif;
+    font-weight: 600;
+}
+
+.font-sora-700 {
+    font-family: 'sora', sans-serif;
+    font-weight: 700;
+}
+
+.font-sora-300 {
+    font-family: 'sora', sans-serif;
+    font-weight: 300;
+}
+
+.font-poppins-300 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+}
+
+.font-sora-400 {
+    font-family: 'sora', sans-serif;
+    font-weight: 400;
+}
+
+.font-poppins-400 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+}
+
+.font-sora-500 {
+    font-family: 'sora', sans-serif;
+    font-weight: 500;
+}
+
+.font-poppins-500 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+}
+
+.font-inter {
+    font-family: 'inter', sans-serif;
+}
+
+.font-krona {
+    font-family: 'krona one';
+}
+
+
+
+
+.font_shadow {
+    text-shadow: 0px 0px 2px rgba(6, 6, 6, 0.531);
+}
